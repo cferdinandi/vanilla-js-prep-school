@@ -1,5 +1,5 @@
 # hostname (and path) to the root
-baseURL: "http2://vanillajsprepschool.com"
+baseURL: "https://vanillajsprepschool.com"
 
 # Customer parameters
 params:
