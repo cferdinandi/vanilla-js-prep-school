@@ -14,7 +14,7 @@ fullWidth: false
 
 ## Join Prep School
 
-Enter your email address to get notifications when the next live-coding session is going to happen, and a link to join.
+{{<mailchimp-intro>}}
 
 {{<mailchimp>}}
 

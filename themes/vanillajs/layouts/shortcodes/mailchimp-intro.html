@@ -1,1 +1,5 @@
-{{ partial "mailchimp-intro.html" . }}
+{{- if $.Site.Params.stream -}}
+<p>A live-coding session is happening <em>right now</em>. Enter your email address to join (and to get notified about future sessions).</p>
+{{- else -}}
+<p>Enter your email address to get notified whenever a live-coding session is going to happen, and a link to join.</p>
+{{- end -}}

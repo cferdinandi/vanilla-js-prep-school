@@ -1,0 +1,13 @@
+{{- if $.Site.Params.stream -}}
+<p class="margin-bottom-small">A live-coding session is happening right now.</p>
+<ul class="margin-bottom-large">
+	<li>Please keep yourself on mute to minimize background noise.</li>
+	<li>If you want to ask a question, you can do so at any time in the chat window.</li>
+</ul>
+
+<p><a class="btn btn-large" href="{{ $.Site.Params.stream }}"><span class="margin-right">&#9654;</span> Join the Session</a></p>
+
+<p>(<em>You'll also get an email letting you know whenever another live-coding session is going to happen, and a link to join.</em>)</p>
+{{- else -}}
+<p>You'll get an email letting you know whenever a live-coding session is going to happen, and a link to join.</p>
+{{- end -}}

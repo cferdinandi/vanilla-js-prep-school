@@ -5,10 +5,6 @@ draft: false
 url: "/join-success"
 ---
 
-You'll get an email letting you know when the next live-coding session is happening, and a link to join.
+{{<success-message>}}
 
-## Don't want to wait to get vanilla JS awesomeness?
-
-{{<mailchimp-intro>}}
-
-<a id="join-daily" class="btn btn-block" href="https://gomakethings.com/articles">Click here to get Daily Developer Tips</a>
+{{<developer-tips>}}

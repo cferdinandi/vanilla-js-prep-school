@@ -1,0 +1,16 @@
+{{- $data := getJSON $.Site.Params.api -}}
+{{- $ctas := index $data "ctas" -}}
+
+{{- if $.Site.Params.stream -}}
+<h2>Want more vanilla JS awesomeness?</h2>
+{{- else -}}
+<h2>Don't want to wait to get vanilla JS awesomeness?</h2>
+{{- end -}}
+
+<p>I send out a short email each weekday with code snippets, tools, techniques, and interesting stuff from around the web. {{ if isset $ctas "mc-subscribers" }}{{ index $ctas "mc-subscribers" | safeHTML }}{{ end }}</p>
+
+{{- if $.Site.Params.stream -}}
+<strong><a href="https://gomakethings.com/articles">Click here to get daily developer tips sent straight to your inbox.</a></strong>
+{{- else -}}
+<a class="btn" href="https://gomakethings.com/articles">Click here to get Daily Developer Tips</a>
+{{- end -}}
