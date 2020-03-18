@@ -9,7 +9,7 @@ params:
   rssURL: ""
   rssLimit: 7
   minify: true
-  stream: "https://zoom.us/j/504196279"
+  stream: ""
   start: ""
 
 # Caches
