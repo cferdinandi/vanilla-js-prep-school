@@ -9,7 +9,8 @@ params:
   rssURL: ""
   rssLimit: 7
   minify: true
-  stream: ""
+  stream: "https://zoom.us/j/504196279"
+  start: "at [1pm US Eastern](https://everytimezone.com/s/387e164f). You'll get a reminder email when it's starting"
 
 # Caches
 caches:
