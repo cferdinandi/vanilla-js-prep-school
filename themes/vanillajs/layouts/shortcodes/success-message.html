@@ -1,5 +1,5 @@
 {{- if $.Site.Params.stream -}}
-<p class="margin-bottom-small">A live-coding session is happening {{ $.Site.Params.start | markdownify }}.</p>
+<p class="margin-bottom-small">A live-coding session is happening {{ if $.Site.Params.start }}{{ $.Site.Params.start | markdownify }}. You'll get a reminder email when it's starting{{ else }}right now{{ end }}.</p>
 <ul class="margin-bottom-large">
 	<li>If you want to ask a question, you can do so at any time in the chat window.</li>
 	<li>Please keep yourself on mute to minimize background noise.</li>
