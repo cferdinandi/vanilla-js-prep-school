@@ -7,9 +7,9 @@ noIndex: false
 anchors: false
 ---
 
-Get access all of the past projects. Each project includes a recording of the live-coding session, a text transcript, and all of the source code.
+Get access all of the past projects. Each project includes a recording of the live-coding session and all of the source code.
 
-You'll also get free access to any future project session.
+You'll also get free access to any future project sessions.
 
 <a class="btn btn-large" href="#">Get the Prep School Library for just $99</a>
 
