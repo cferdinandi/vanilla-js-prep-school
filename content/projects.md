@@ -21,6 +21,7 @@ You'll also get free access to any future project sessions.
 
 Here are some the projects I've live-coded in past sessions.
 
+- Scroll Progress Script
 - Accordion Script
 
 **[Get project access &rarr;](#main)**

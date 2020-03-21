@@ -10,7 +10,7 @@ fullWidth: false
 
 <p class="text-large">{{%md%}}Watch [Chris Ferdinandi](#about) live-code vanilla JS projects, and ask him questions about it.{{%/md%}}</p>
 
-{{<cta for="learnvjs-home">}}
+{{<cta for="funnel">}}
 
 ## Join Prep School
 
