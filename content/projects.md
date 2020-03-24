@@ -11,17 +11,18 @@ Get access all of the past projects. Each project includes a recording of the li
 
 You'll also get free access to any future project sessions.
 
-<a class="btn btn-large" href="#">Get the Prep School Library for just $99</a>
+{{<purchase-btn>}}
 
 ## Sample Project
 
-
+<iframe src="https://player.vimeo.com/video/400287227?color=0088cc&title=0&byline=0&portrait=0" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Project List
 
 Here are some the projects I've live-coded in past sessions.
 
-- Scroll Progress Script
 - Accordion Script
+- Scroll Progress Script
+- Notes App
 
 **[Get project access &rarr;](#main)**

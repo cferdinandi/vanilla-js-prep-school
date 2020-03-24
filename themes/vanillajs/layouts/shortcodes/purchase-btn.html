@@ -1,0 +1,10 @@
+{{- $data := getJSON $.Site.Params.api -}}
+{{- $details := index $data.products "prepSchool" -}}
+
+{{- $apiPrices := index $data "prices" -}}
+{{- .Scratch.Set "apiPrice" "" -}}
+{{- if isset $apiPrices "prepSchool" -}}
+	{{- .Scratch.Set "apiPrice" $apiPrices.prepSchool.price -}}
+{{- end -}}
+
+<a class="btn btn-large" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=48740">Get the Prep School Library for just {{ if ne (.Scratch.Get "apiPrice") "" }}{{ .Scratch.Get "apiPrice" | safeHTML }}{{ else }}{{ $details | safeHTML }}{{ end }}</a>
