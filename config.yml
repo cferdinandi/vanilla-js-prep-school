@@ -15,7 +15,7 @@ params:
 # Caches
 caches:
   getjson:
-    maxAge: "10m"
+    maxAge: "1m"
 
 # The language code for the site
 languageCode: "en-us"
