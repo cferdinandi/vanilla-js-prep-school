@@ -8,7 +8,7 @@ fullWidth: false
 
 <h1 class="text-xlarge margin-bottom-small">Vanilla JS Prep School</h1>
 
-<p class="text-large">{{%md%}}Watch [Chris Ferdinandi](#about) live-code vanilla JS projects, and ask him questions about it.{{%/md%}}</p>
+<p class="text-large">{{%md%}}Watch [Chris Ferdinandi](#about) live-code vanilla JS projects, and ask him questions about it (for free).{{%/md%}}</p>
 
 {{<cta for="prep-school">}}
 
