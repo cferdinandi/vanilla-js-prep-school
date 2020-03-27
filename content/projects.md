@@ -1,7 +1,7 @@
 ---
 title: "Prep School Library"
 date: 2018-01-24T11:48:20-05:00
-draft: true
+draft: false
 noTitle: false
 noIndex: false
 anchors: false
