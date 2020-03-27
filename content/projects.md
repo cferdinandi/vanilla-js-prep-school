@@ -17,7 +17,7 @@ You'll also get free access to any future project sessions.
 
 ## Sample Project
 
-<iframe src="https://player.vimeo.com/video/400287227?color=0088cc&title=0&byline=0&portrait=0" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/401382820?color=0088cc&title=0&byline=0&portrait=0" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Project List
 
@@ -26,5 +26,6 @@ Here are some the projects I've live-coded in past sessions.
 - Accordion Script
 - Scroll Progress Script
 - Notes App
+- Audio Player
 
 **[Get project access &rarr;](#main)**
