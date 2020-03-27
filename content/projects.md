@@ -11,7 +11,7 @@ Get access all of the past projects. Each project includes a recording of the li
 
 You'll also get free access to any future project sessions.
 
-{{<cta for="prepSchoolBuy">}}
+{{<cta for="prep-school-buy">}}
 
 {{<purchase-btn>}}
 
