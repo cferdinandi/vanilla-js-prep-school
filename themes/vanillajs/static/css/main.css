@@ -1587,6 +1587,28 @@ button:-moz-focusring,
 }
 
 /**
+ * @section Fluid iFrames
+ * Create responsive iframes
+ */
+/* line 6, src/sass/components/_fluid-vids.scss */
+.fluid-vids {
+  margin-bottom: 1.5625em;
+  max-width: 100%;
+  padding-top: 60.625%;
+  position: relative;
+  width: 100%;
+}
+
+/* line 14, src/sass/components/_fluid-vids.scss */
+.fluid-vids iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/**
  * @section Callouts
  * Styling for callout boxes
  */
