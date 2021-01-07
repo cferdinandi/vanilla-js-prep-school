@@ -1,4 +1,4 @@
-/*! learn-vanilla-js v1.0.0 | (c) 2020 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/learn-vanilla-js */
+/*! learn-vanilla-js v1.0.0 | (c) 2021 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/learn-vanilla-js */
 (function () {
 	'use strict';
 
@@ -213,7 +213,7 @@
 	if (document.querySelector('#mailchimp-form')) {
 		mailchimp(function (data) {
 			if (data.code === 200) {
-				window.location.href = '/join-success';
+				window.location.href = 'https://gomakethings.com/newsletter-success';
 			}
 		});
 	}
